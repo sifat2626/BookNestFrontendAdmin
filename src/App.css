@@ -1,0 +1,42 @@
+.pt-10 {
+  margin-top: 30px !important;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-container img {
+  height: 7rem;
+}
+
+input[type="file"] {
+  padding: 8px 12px !important;
+  height: 42px !important;
+}
+
+.app-btn-danger {
+  background: #fff !important;
+  color: #766161cc !important;
+  border: 1px solid #dd50509e !important;
+}
+.app-btn-danger:hover {
+  color: #a31515 !important;
+  border: 1px solid #a31515 !important;
+  background: #fff !important;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .app-page-title{
+    margin-top: 28px !important;
+  }
+}
