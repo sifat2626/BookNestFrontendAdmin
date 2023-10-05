@@ -17,7 +17,7 @@ const AuthProvider = ({ children }) => {
     }
   }, []);
   // axios config
-  axios.defaults.baseURL = "http://localhost:5000/api/v1";
+  axios.defaults.baseURL = "https://book-nest-backend.onrender.com/api/v1";
   axios.defaults.headers.common["authorization"] = auth?.token;
 
 
